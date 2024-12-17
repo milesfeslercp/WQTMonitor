@@ -1,0 +1,39 @@
+dependencies:
+  espressif/ds18b20:
+    component_hash: d676429d9f1f686b65ed895e418eb4b331477bcd5d63c27f43dc3d6a2de8f13b
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.1.1
+  espressif/esp_lcd_sh1107:
+    component_hash: 9cc00a4d066e3e1d120fd2006d30612766488379b820804092a9bfedb3c1f93c
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.1.0
+  espressif/esp_lvgl_port:
+    component_hash: b43dc04720d126cbfe14d53a84787e4c24b7bd7f15468e224c930ad3ffb32258
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.4.0
+  espressif/onewire_bus:
+    component_hash: c4c781940d8bd988432b47ac3ee68479c69e14e01fdfba0b61365b233a3ba5d6
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.2
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.0
+  lvgl/lvgl:
+    component_hash: 948bff879a345149b83065535bbc4a026ce9f47498a22881e432a264b9098015
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 8.3.11
+manifest_hash: 439e1b2415731979e70485b012e466d37e9a0ebd505879e15ef3e12ead837db9
+target: esp32
+version: 1.0.0
